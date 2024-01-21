@@ -15,63 +15,45 @@ Welcome to the GitHub Repository Search project! This project allows users to se
 # Getting Started
 To use this project, follow these steps:
 
-## 1.Clone the Repository:
-- Clone this repository to your local machine using the following command:
-         bash
-          Copy code
+### 1.Clone the Repository:
+ - Clone this repository to your local machine using the following command:
+##### bash
           git clone https://github.com/your-username/repository-search.git
-## 2.Navigate to the Project Directory:
+### 2.Navigate to the Project Directory:
+- Change into the project directory:
+##### bash
+         cd repository-search
+### 3.Install Dependencies:
+- Make sure to install any required dependencies. You can do this using the following command:
+##### Copy code
+         npm install
+### 4.Run the Application:
+- Start the application with the following command:
+##### sql
+         npm start
+### 5.Access the Application:
+- Open your web browser and navigate to http://localhost:3000 to access the GitHub Repository Search tool.
+## Usage
+### 1.User Repository Search:
+- Enter the GitHub username in the designated input field.
+- Click the "Search" button.
+- View the list of public repositories associated with the specified user.
+### 2.Repository Name Search within User's Repositories:
+- After performing a user repository search, enter the GitHub repository name in the designated input field.
+- Click the "Search" button.
+- See the list of repositories matching the provided name within the specified user's repositories.
+## Technologies Used
+### Frontend:
+- HTML
+- CSS
+- JavaScript
+### Backend:
+- Node.js
+- Express.js
+### GitHub API:
+- Utilizes the GitHub API for retrieving repository information.
 
-Change into the project directory:
-bash
-Copy code
-cd repository-search
-Install Dependencies:
-
-Make sure to install any required dependencies. You can do this using the following command:
-Copy code
-npm install
-Run the Application:
-
-Start the application with the following command:
-sql
-Copy code
-npm start
-Access the Application:
-
-Open your web browser and navigate to http://localhost:3000 to access the GitHub Repository Search tool.
-Usage
-User Repository Search:
-
-Enter the GitHub username in the designated input field.
-Click the "Search" button.
-View the list of public repositories associated with the specified user.
-Repository Name Search within User's Repositories:
-
-After performing a user repository search, enter the GitHub repository name in the designated input field.
-Click the "Search" button.
-See the list of repositories matching the provided name within the specified user's repositories.
-View Repository Details:
-
-Click on a repository in the list to view detailed information.
-Explore repository details, such as name, description, programming language, and creation date.
-Technologies Used
-Frontend:
-
-HTML
-CSS
-JavaScript
-Backend:
-
-Node.js
-Express.js
-GitHub API:
-
-Utilizes the GitHub API for retrieving repository information.
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-Acknowledgments
-Special thanks to the GitHub API for providing the necessary tools to make this project possible.
+## Acknowledgments
+- Special thanks to the GitHub API for providing the necessary tools to make this project possible.
 
 Feel free to contribute to the project by submitting issues or pull requests. Happy coding!
