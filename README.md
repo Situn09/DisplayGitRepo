@@ -28,6 +28,10 @@ https://situn09.github.io/DisplayGitRepo/ but you can't use beacause you need to
 - Make sure to install any required dependencies. You can do this using the following command:
 ##### Copy code
          npm install
+### 4. Set Git Auth Token
+- To access git api you need to have "Personal access tokens" . By following this website https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens  you can get your "Personal access tokens".
+###### create .env file in Backend folder and write following code
+    GIT_AUTH_TOKEN = Your Personal access tokens
 ### 4.Run the Application:
 - Start the application with the following command:
 ##### sql
