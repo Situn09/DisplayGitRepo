@@ -13,9 +13,8 @@ Welcome to the GitHub Repository Search project! This project allows users to se
 - View detailed information for each repository, including the repository name, description, programming language.
 
 # Getting Started
-To use this project, follow these steps to step up only backend because i already host forntend so to access the frontend go to this link 
-https://situn09.github.io/DisplayGitRepo/
-And follow below step to step backend
+To use this project, follow these steps to set-up only backend because i already host forntend, to access the frontend go to this link 
+https://situn09.github.io/DisplayGitRepo/ but you can't use beacause you need to set up backend to add functionality to this website so follow below step to set-up backend
 
 ### 1.Clone the Repository:
  - Clone this repository to your local machine using the following command:
