@@ -28,6 +28,8 @@ async function noOfPublicRepo(user) {
 function pageUpDate() {
   const secondPage = document.getElementById("secondPage");
   secondPage.style.cssText = `display:inherit`;
+  const warning = document.getElementById("warning");
+  warning.style.cssText = `display:none`;
 }
 
 // generate page as per user
