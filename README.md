@@ -18,7 +18,7 @@ To use this project, follow these steps:
 ### 1.Clone the Repository:
  - Clone this repository to your local machine using the following command:
 ##### bash
-          git clone https://github.com/your-username/repository-search.git
+     git clone https://github.com/Situn09/DisplayGitRepo.git
 ### 2.Navigate to the Project Directory:
 - Change into the project directory:
 ##### bash
