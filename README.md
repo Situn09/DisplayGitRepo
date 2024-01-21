@@ -4,26 +4,23 @@ Welcome to the GitHub Repository Search project! This project allows users to se
 
 ## Features
 ### 1.User Repository Search:
- - Enter the GitHub username of the user whose repositories you want to explore.
+- Enter the GitHub username of the user whose repositories you want to explore.
 - Get a list of all public repositories belonging to the specified user.
 ### 2.Repository Name Search within User's Repositories:
-      
-      _Enter the name of the GitHub repository you are interested in, within the specified user's account.
-      _Receive a list of repositories matching the provided name within the user's repositories.
+- Enter the name of the GitHub repository you are interested in, within the specified user's account.
+- Receive a list of repositories matching the provided name within the user's repositories.
 ### 3.Detailed Information:
-
-      _View detailed information for each repository, including the repository name, description, programming language.
+- View detailed information for each repository, including the repository name, description, programming language.
 
 # Getting Started
 To use this project, follow these steps:
 
 ## 1.Clone the Repository:
-
-      _Clone this repository to your local machine using the following command:
-     _ bash
-      _Copy code
-      _git clone https://github.com/your-username/repository-search.git
-Navigate to the Project Directory:
+- Clone this repository to your local machine using the following command:
+         bash
+          Copy code
+          git clone https://github.com/your-username/repository-search.git
+## 2.Navigate to the Project Directory:
 
 Change into the project directory:
 bash
