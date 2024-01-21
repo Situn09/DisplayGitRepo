@@ -26,8 +26,10 @@ async function noOfPublicRepo(user) {
 }
 
 function pageUpDate() {
+  const warning = document.getElementById("warning");
   const secondPage = document.getElementById("secondPage");
   secondPage.style.cssText = `display:inherit`;
+  warning.style.cssText = `display:none`;
 }
 
 // generate page as per user
@@ -37,6 +39,16 @@ userSearch.addEventListener("click", async () => {
   if (!userName) {
     alert("Enter valid username");
     return;
+  } else {
+    // setTimeout(() => {
+    //   if (!result.message || result.length == 0) {
+    //     alert(
+    //       "Backend server down or not running. To run backend follow this link https://github.com/Situn09/DisplayGitRepo/blob/main/README.md"
+    //     );
+    //     document.body.removeChild(img);
+    //     return;
+    //   }
+    // }, 5000);
   }
   const img = document.createElement("img");
   img.src = "./images/Spinner.gif";
