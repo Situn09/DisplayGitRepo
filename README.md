@@ -4,8 +4,8 @@ Welcome to the GitHub Repository Search project! This project allows users to se
 
 ## Features
 ### 1.User Repository Search:
-      _Enter the GitHub username of the user whose repositories you want to explore.
-      _Get a list of all public repositories belonging to the specified user.
+-Enter the GitHub username of the user whose repositories you want to explore.
+-Get a list of all public repositories belonging to the specified user.
 ### 2.Repository Name Search within User's Repositories:
       
       _Enter the name of the GitHub repository you are interested in, within the specified user's account.
