@@ -13,7 +13,9 @@ Welcome to the GitHub Repository Search project! This project allows users to se
 - View detailed information for each repository, including the repository name, description, programming language.
 
 # Getting Started
-To use this project, follow these steps:
+To use this project, follow these steps to step up only backend because i already host forntend so to access the frontend go to this link 
+https://situn09.github.io/DisplayGitRepo/
+And follow below step to step backend
 
 ### 1.Clone the Repository:
  - Clone this repository to your local machine using the following command:
@@ -22,7 +24,7 @@ To use this project, follow these steps:
 ### 2.Navigate to the Project Directory:
 - Change into the project directory:
 ##### bash
-         cd repository-search
+         cd Backend
 ### 3.Install Dependencies:
 - Make sure to install any required dependencies. You can do this using the following command:
 ##### Copy code
@@ -31,8 +33,11 @@ To use this project, follow these steps:
 - Start the application with the following command:
 ##### sql
          npm start
+### 5.Port ready to Listen
+- you can see "port is ready to listen" in your terminal
+- now you can access backend in this url http://localhost:3000
 ### 5.Access the Application:
-- Open your web browser and navigate to http://localhost:3000 to access the GitHub Repository Search tool.
+- Open your web browser and navigate to https://situn09.github.io/DisplayGitRepo/ to access the GitHub Repository Search tool.
 ## Usage
 ### 1.User Repository Search:
 - Enter the GitHub username in the designated input field.
@@ -42,6 +47,11 @@ To use this project, follow these steps:
 - After performing a user repository search, enter the GitHub repository name in the designated input field.
 - Click the "Search" button.
 - See the list of repositories matching the provided name within the specified user's repositories.
+### 3.Navigate to diff page
+- in bottom of this website you can jump into different page
+- you can back and forth from any specific page using older and newer button
+### 4.Set load repository per page
+- you can set how many repository can load in single page , by default it load only 10 repository per page
 ## Technologies Used
 ### Frontend:
 - HTML
