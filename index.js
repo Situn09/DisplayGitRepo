@@ -70,7 +70,7 @@ userSearch.addEventListener("click", async () => {
     }).catch((error) => {
         document.body.removeChild(img);
         alert("Server is currently unavailable");
-      });;
+      });
   } catch (error) {
     alert("Please fill correct username ");
   }
