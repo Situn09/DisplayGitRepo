@@ -67,7 +67,10 @@ userSearch.addEventListener("click", async () => {
         pageButtonGenerator();
       }
       document.body.removeChild(img);
-    });
+    }).catch((error) => {
+        document.body.removeChild(img);
+        alert(error);
+      });;
   } catch (error) {
     alert("Please fill correct username ");
   }
